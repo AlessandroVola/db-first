@@ -1,0 +1,15 @@
+MACCHINE DI UN CONCESSIONARIO
+
+- id :                  BIGINT              PRIMARY-KEY AUTOINCREMENT UNIQUE NOT-NULL       1               2
+- marca :               VARCHAR(30)         NOT-NULL                                        Ferrari         Mercedes-Benz
+- modello :             VARCHAR(50)         NOT-NULL                                        F40             AMG GT
+- prezzo :              MEDIUMINT           NOT-NULL                                        2,380,000       520,00
+- tipo-carburante :     VARCHAR(15)         NOT-NULL                                        Benzina         Benzina
+- anno :                YEAR                NOT-NULL                                        1990            2022
+- chilometraggio :      MEDIUMINT           NOT-NULL                                        29,800          100
+- cavalli :             SMALLINT            NULL                                            479             730
+- cambio :              VARCHAR(15)         NOT-NULL                                        Manuale         Sequenziale
+- numero_porte :        TINYINT(1)          NULL                                                            2
+- versione :            VARCHAR(50)         NULL                                                            BLACK SERIES
+- interni :             VARCHAR(255)        NULL                                                            Pelle Parziale
+- descrizione :         TEXT                NULL
